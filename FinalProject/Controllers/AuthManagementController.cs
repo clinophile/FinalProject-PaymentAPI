@@ -16,7 +16,7 @@ using FinalProject.Models;
 using FinalProject.Models.DTOs.Requests;
 using FinalProject.Models.DTOs.Responses;
 
-namespace TodoApp.Controllers{
+namespace FinalProject.Controllers{
 
     [Route("api/[controller]")]
     [ApiController]

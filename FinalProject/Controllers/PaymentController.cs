@@ -19,7 +19,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 
 
-namespace PaymentAPI.Controllers{
+namespace FinalProject.Controllers{
 
     [Route("api/[controller]")]
     [ApiController]
