@@ -74,7 +74,7 @@ namespace FinalProject.Controllers{
             // Implement changes to database level
             await _context.SaveChangesAsync();
 
-            return Ok("Data Updated!");
+            return Ok();
         }
 
         [HttpDelete("{id}")]
