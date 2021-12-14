@@ -87,7 +87,7 @@ namespace FinalProject.Controllers{
             _context.Items.Remove(itemExist);
             await _context.SaveChangesAsync();
 
-            return Ok(itemExist);
+            return Ok();
         }
     }
 }
